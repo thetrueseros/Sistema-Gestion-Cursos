@@ -94,7 +94,8 @@ namespace Sistema_Gestion_Cursos
                 int.Parse(txtbCantEstudiantes.Text),
                 double.Parse(txtbPrecioUnit.Text)
             );
-
+            CursoRepository.Instancia.Agregar(curso);
+            lstbCursos.Items.Clear();
         }
     }
 }

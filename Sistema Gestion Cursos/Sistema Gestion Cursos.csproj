@@ -49,6 +49,7 @@
     <Compile Include="Curso.cs" />
     <Compile Include="CursoFactory.cs" />
     <Compile Include="CursoPresencial.cs" />
+    <Compile Include="CursoRepository.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>

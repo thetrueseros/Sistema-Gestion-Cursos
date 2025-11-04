@@ -8,14 +8,16 @@ namespace Sistema_Gestion_Cursos
 {
     public abstract class Curso
     {
+        public string modalidad { get; set; }
         public string nombreCurso { get; set; }
         public string docente { get; set; }
         public double intensidadHoraria { get; set; }
         public int cantidadEstudiantes { get; set; }
         public double precioUnit { get; set; }
 
-        public Curso(string nombreCurso, string docente, double intensidadHoraria, int cantidadEstudiantes, double precioUnit)
+        public Curso(string modalidad, string nombreCurso, string docente, double intensidadHoraria, int cantidadEstudiantes, double precioUnit)
         {
+            this.modalidad = modalidad;
             this.nombreCurso = nombreCurso;
             this.docente = docente;
             this.intensidadHoraria = intensidadHoraria;

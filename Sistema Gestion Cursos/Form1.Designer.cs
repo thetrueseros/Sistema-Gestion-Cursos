@@ -87,7 +87,7 @@
             this.lstbCursos.Location = new System.Drawing.Point(395, 110);
             this.lstbCursos.MinimumSize = new System.Drawing.Size(454, 290);
             this.lstbCursos.Name = "lstbCursos";
-            this.lstbCursos.Size = new System.Drawing.Size(454, 290);
+            this.lstbCursos.Size = new System.Drawing.Size(751, 290);
             this.lstbCursos.TabIndex = 35;
             // 
             // btnAgregarCurso
@@ -97,7 +97,7 @@
             this.btnAgregarCurso.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarCurso.Location = new System.Drawing.Point(283, 446);
             this.btnAgregarCurso.Name = "btnAgregarCurso";
-            this.btnAgregarCurso.Size = new System.Drawing.Size(291, 40);
+            this.btnAgregarCurso.Size = new System.Drawing.Size(588, 40);
             this.btnAgregarCurso.TabIndex = 34;
             this.btnAgregarCurso.Text = "Agregar Curso";
             this.btnAgregarCurso.UseVisualStyleBackColor = true;
@@ -175,12 +175,11 @@
             // 
             // lblSisGesCursos
             // 
-            this.lblSisGesCursos.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.lblSisGesCursos.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSisGesCursos.AutoSize = true;
             this.lblSisGesCursos.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSisGesCursos.Location = new System.Drawing.Point(292, 39);
+            this.lblSisGesCursos.Location = new System.Drawing.Point(433, 41);
             this.lblSisGesCursos.Name = "lblSisGesCursos";
             this.lblSisGesCursos.Size = new System.Drawing.Size(263, 24);
             this.lblSisGesCursos.TabIndex = 27;
@@ -221,7 +220,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(861, 514);
+            this.ClientSize = new System.Drawing.Size(1158, 514);
             this.Controls.Add(this.txtbIntensidadHoraria);
             this.Controls.Add(this.txtbPrecioUnit);
             this.Controls.Add(this.label1);
@@ -237,7 +236,7 @@
             this.Controls.Add(this.lbNombreCurso);
             this.Controls.Add(this.lblFechaVencimiento);
             this.Controls.Add(this.lblSisGesCursos);
-            this.MinimumSize = new System.Drawing.Size(877, 553);
+            this.MinimumSize = new System.Drawing.Size(1174, 553);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
