@@ -15,6 +15,8 @@ namespace Sistema_Gestion_Cursos
         public Form1()
         {
             InitializeComponent();
+            LimpiarCampos();
+            ActualizarListaCursos();
         }
 
         private void btnAgregarCurso_Click(object sender, EventArgs e)
@@ -96,6 +98,26 @@ namespace Sistema_Gestion_Cursos
             );
             CursoRepository.Instancia.Agregar(curso);
             lstbCursos.Items.Clear();
+            ActualizarListaCursos();
+            LimpiarCampos();
+            MessageBox.Show("Curso agregado exitosamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+        private void LimpiarCampos()
+        {
+            cmbModalidad.SelectedIndex = 0;
+            txtbNombreCurso.Clear();
+            txtbDocente.Clear();
+            txtbIntensidadHoraria.Clear();
+            txtbCantEstudiantes.Clear();
+            txtbPrecioUnit.Clear();
+        }
+        public void ActualizarListaCursos()
+        {
+            lstbCursos.Items.Clear();
+            foreach (string linea in CursoRepository.Instancia.ObtenerListaCursos())
+            {
+                lstbCursos.Items.Add(linea);
+            }
         }
     }
 }
