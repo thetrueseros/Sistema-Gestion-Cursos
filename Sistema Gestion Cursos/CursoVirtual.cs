@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Sistema_Gestion_Cursos
 {
-    public class Virtual : Curso
+    public class CursoVirtual : Curso
     {
-        public Virtual(string nombreCurso, string docente, double intensidadHoraria, int cantidadEstudiantes, double precioUnit)
-            : base(nombreCurso, docente, intensidadHoraria, cantidadEstudiantes, precioUnit)
+        public CursoVirtual(string nombreCurso, string docente, double intensidadHoraria, int cantidadEstudiantes, double precioUnit)
+            : base("Virtual", nombreCurso, docente, intensidadHoraria, cantidadEstudiantes, precioUnit)
         {
         }
         public override double CalcularPrecioFinal(int cantidadEstudiantes, double precioUnit)
