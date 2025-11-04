@@ -86,6 +86,15 @@ namespace Sistema_Gestion_Cursos
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            Curso curso = CursoFactory.CrearCurso(
+                cmbModalidad.Text,
+                txtbNombreCurso.Text,
+                txtbDocente.Text,
+                double.Parse(txtbIntensidadHoraria.Text),
+                int.Parse(txtbCantEstudiantes.Text),
+                double.Parse(txtbPrecioUnit.Text)
+            );
+
         }
     }
 }
