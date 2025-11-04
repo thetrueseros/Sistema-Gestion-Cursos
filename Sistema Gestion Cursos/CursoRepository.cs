@@ -11,7 +11,7 @@ namespace Sistema_Gestion_Cursos
     {
         public static CursoRepository instancia;
         private List<string> cursos = new List<string>();
-        private readonly string rutaArchivo = "cursoss.txt";
+        private readonly string rutaArchivo = "cursos.txt";
 
         /// <summary>
         /// Constructor privado para implementar el patrón Singleton
