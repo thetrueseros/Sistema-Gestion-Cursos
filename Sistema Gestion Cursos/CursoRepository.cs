@@ -55,7 +55,8 @@ namespace Sistema_Gestion_Cursos
             if (cur == null) return;
             string linea = "Modalidad. " + cur.modalidad +
                            ", Nombre curso: " + cur.nombreCurso +
-                           ", Docentee: " + cur.docente +
+                           ", Docente: " + cur.docente +
+                           ", Int. Horaria: " + cur.intensidadHoraria +
                            ", Cant. Estudiantes: " + cur.cantidadEstudiantes +
                            ", Precio unit. Neto: " + cur.CalcularPrecioFinal(cur.cantidadEstudiantes, cur.precioUnit);
             cursos.Add(linea);
