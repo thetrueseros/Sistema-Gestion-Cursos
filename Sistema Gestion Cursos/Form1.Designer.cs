@@ -101,7 +101,7 @@
             this.btnAgregarCurso.TabIndex = 34;
             this.btnAgregarCurso.Text = "Agregar Curso";
             this.btnAgregarCurso.UseVisualStyleBackColor = true;
-            this.btnAgregarCurso.Click += new System.EventHandler(this.btnAgregarProducto_Click);
+            this.btnAgregarCurso.Click += new System.EventHandler(this.btnAgregarCurso_Click);
             // 
             // txtbCantEstudiantes
             // 
